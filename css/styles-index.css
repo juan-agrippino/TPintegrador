@@ -7,10 +7,6 @@ body{
     padding: 5px;
 }
 
-.toystory{
-    height: 200px;
-    width: 200px;
-}
 li{
     font-size: 25px;
 }
@@ -29,17 +25,10 @@ h2{
     border-radius: 5%;
 }
 
-
-
-
-img {
-    height: 150px;
-}
-
-.flexHijo {
-    padding: ;
-    margin: ;
-    background-color: ;
+.portada {
+height: 200px;
+width: 200px;
+border: 10px solid #000;
 }
 
 .logo {
