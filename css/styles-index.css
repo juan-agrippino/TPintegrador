@@ -1,6 +1,7 @@
 body{
-    background-color: #F35454;
+    background-color: #2A2D34;
     padding: 5px;
+    color:  #FFFFFF;
 }
 
 .flexPrincipal{
@@ -9,10 +10,12 @@ body{
 
 li{
     font-size: 25px;
+    color:#FF6B6B;
 }
 
 h2{
     font-size: 30px;
+    color: #45AAB8;
 }
 .flexPadre {
     flex-direction: row;
@@ -26,9 +29,10 @@ h2{
 }
 
 .portada {
-height: 200px;
-width: 200px;
-border: 10px solid #000;
+height: 250px;
+width: 250px;
+border: 10px solid #FF9900; 
+border-radius: 10px;
 }
 
 .logo {
@@ -62,9 +66,14 @@ border: 10px solid #000;
   
   .menu a {
     text-decoration: none; 
-    color: #fff; 
+    color: #FFFFFF; 
     font-weight: bold; 
+  }
   
   .menu a:hover {
-    color: #ff9900; 
-  }
+    color: #ff9900;
+}
+
+  
+
+ 
