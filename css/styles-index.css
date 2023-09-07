@@ -1,41 +1,52 @@
 body{
-    background-color: #2A2D34;
+    background-image: url(https://i.pinimg.com/736x/8d/ab/2c/8dab2ccfd0d3573d36a2764357b3d467.jpg);
     padding: 5px;
     color:  #FFFFFF;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 .flexPrincipal{
     padding: 5px;
 }
 
-li{
-    font-size: 25px;
-    color:#FF6B6B;
+.logodelsitio{
+    width: 200px;
+    
 }
 
 h2{
-    font-size: 30px;
-    color: #45AAB8;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 .flexPadre {
     flex-direction: row;
-    background-color: grey;
     padding: 15px;
+    background-image: url(https://i.pinimg.com/originals/5a/c1/29/5ac1296b709f4427d4c7785a322d78a2.png);
     display: flex;
     justify-content: space-between;
-    height: 4%;
+    height: 100px;
     align-items: center;
     border-radius: 5%;
 }
 
 .portada {
-height: 250px;
-width: 250px;
-border: 10px solid #FF9900; 
-border-radius: 10px;
+height: 200px;
+width: 200px;
+display: inline-block;
+transform: scale(1);
+transition: transform 0.3s; 
+}
+.portada:hover{
+    transform:scale(1.1);
 }
 
-.logo {
+
+
+.logodelsitio {
     order: 1;
     align-self: flex-start;
 }
@@ -73,6 +84,95 @@ border-radius: 10px;
   .menu a:hover {
     color: #ff9900;
 }
+
+.flex-peliculas_populares {
+    display: flex;
+    flex-direction: row; /* Cambia la dirección de flex a columna */
+    text-align:center; /* Centra el texto horizontalmente */
+    padding: 15px;
+    align-items: center; /* Centra el contenido verticalmente */
+   
+}
+
+.toystory_caja{
+    color: white;
+    flex-direction: column;
+}
+.reyleon_caja{
+    color: white;
+    flex-direction: column;
+}
+.barbie_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.pitufos_caja{
+    color: white;
+    flex-direction: column;
+}
+.highschool_caja{
+    color: white;
+    flex-direction: column;
+}
+.GOT_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.friends_caja{
+    color: white;
+    flex-direction: column;
+}
+
+
+.stranger_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.breakingbad_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.thecrown_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.hombres_caja {
+    color: white;
+    flex-direction: column;
+}
+
+.schindler_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.batman_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.padrino_caja{
+    color: white;
+    flex-direction: column;
+}
+
+.cadena_caja{
+    color: white;
+    flex-direction: column;
+}
+
+
+
+
+
+   
+
+   
 
   
 
