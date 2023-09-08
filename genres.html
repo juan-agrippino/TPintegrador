@@ -3,21 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../TPintegrador/css/style_genres.css" rel="stylesheet">
     <title>Generos</title>
 </head>
 <body>
-<h1>Generos</h1>    
-<h2>Peliculas</h2>
-<ul>
-    <li>Aventura</li>
-    <li>Comedia</li>
-    <li>Fantasia</li>
-</ul>
-<h2>Series</h2>
-<ul>
-    <li>Suspenso</li>
-    <li>Drama</li>
-    <li>Crimen</li>
-</ul>
+    <div class="flexHijo logo">
+        <header class="encabezado">
+            <section class="flexPadre">
+
+                <article>
+                    <div class="logo">
+                        <img class="logodelsitio" src="../recursos/Movie.png" alt="Logo del Sitio Web">
+                    </div>
+                </article>
+
+                <article class="flexHijo search">
+                    <form action="resultados_busqueda.html" method="GET">
+                        <input type="text" name="query" placeholder="Buscar...">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </article>
+
+                <article class="flexHijo menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="genres.html">Generos</a></li>
+                            <li><a href="favorite.html">Favoritos</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </section>
+        </header>
+    </div>
+
+    <section class="flexPrincipal">
+
+        <article class="flexPrincipal_1">
+
+            <h2>Peliculas </h2>
+
+            <div class="flex-peliculas_populares">
+
+                <div class="flex-peliculas_populares toystory_caja">
+                    <h3> Aventura</h3>
+                    
+                    <img class="portada toystory" src="../recursos/toystory.jpeg">
+                    
+                </div>
+
+                <div class="flex-peliculas_populares barbie_caja">
+                    <h3>Comedia</h3>
+                    <img class="portada barbie" src="../recursos/barbie.jpeg">
+                </div>
+
+                <div class="flex-peliculas_populares pitufos_caja">
+                    <h3>Fantasia</h3>
+
+                    <img class="portada pitufos" src="../recursos/pitufos.jpeg">
+                    
+                    
+                </div>
+                </div>
+
+        </article>
+
+
+        <article class="flexPrincipal_2">
+            <h2>Series </h2>
+
+            <div class="flex-peliculas_populares">
+        
+                <div class="flex-peliculas_populares GOT_caja">
+                    <h3>Suspenso</h3>
+                    
+                    <img class="portada got" src="../recursos/GOT.jpeg">
+                    
+                </div>
+
+                <div class="flex-peliculas_populares stranger_caja">
+                    <h3>Drama</h3>
+                    <img class="portada Stranger" src="../recursos/STRANGER.jpeg">
+                </div>
+
+                <div class="flex-peliculas_populares breakingbad_caja">
+                    <h3>Crimen</h3>
+                        <img class="portada Breaking" src="../recursos/breaking.jpeg">
+                </div>
+
+            </div>
+
+        </article>
+        </section>
 </body>
 </html>

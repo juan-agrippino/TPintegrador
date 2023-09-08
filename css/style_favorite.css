@@ -3,6 +3,12 @@
     
 }
 
+.GOT_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+
 .flexPadre {
     flex-direction: row;
     padding: 15px;

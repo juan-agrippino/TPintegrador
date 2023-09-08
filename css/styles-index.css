@@ -87,11 +87,14 @@ transition: transform 0.3s;
 
 .flex-peliculas_populares {
     display: flex;
-    flex-direction: row; /* Cambia la dirección de flex a columna */
-    text-align:center; /* Centra el texto horizontalmente */
+    flex-direction: row; 
+    text-align:center; 
     padding: 15px;
-    align-items: center; /* Centra el contenido verticalmente */
-   
+    align-items: center; 
+}
+
+h2{
+    font-size: 35px;
 }
 
 .toystory_caja{

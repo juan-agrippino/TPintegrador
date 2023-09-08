@@ -14,6 +14,12 @@
     border-radius: 5%;
 }
 
+.stranger_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+
 .logodelsitio {
     order: 1;
     align-self: flex-start;
@@ -64,12 +70,13 @@ body{
 
 .flex-peliculas_populares {
     display: flex;
-    flex-direction: row; /* Cambia la dirección de flex a columna */
-    text-align:center; /* Centra el texto horizontalmente */
+    flex-direction: row;
+    text-align:center; 
     padding: 15px;
-    align-items: center; /* Centra el contenido verticalmente */
+    align-items: center; 
    
 }
+
 
 .toystory_caja{
     color: white;
@@ -83,6 +90,28 @@ body{
 }
 
 .barbie_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.GOT_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+
+.stranger_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+
+.breakingbad_caja {
     color: white;
     flex-direction: column;
     align-self: center;
