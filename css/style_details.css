@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/8d/ab/2c/8dab2ccfd0d3573d36a2764357b3d467.jpg);
+    padding: 5px;
+    color:  white;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.imagen{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.flexPadre {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 32px;
+    color: ;
+}
+
+
+h2, p {
+    margin: 10px 0;
+    color: ;
+}
+
+
+.sinopsis {
+    font-style: italic;
+    color: ;
+}
+
+
+.genero {
+    font-weight: bold;
+    color:;
+    
+}
+
