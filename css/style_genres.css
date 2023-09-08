@@ -1,0 +1,101 @@
+.logodelsitio{
+    width: 200px;
+    
+}
+
+.flexPadre {
+    flex-direction: row;
+    padding: 15px;
+    background-image: url(https://img.freepik.com/free-vector/gradient-dynamic-purple-lines-background_23-2148995757.jpg);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.logodelsitio {
+    order: 1;
+    align-self: flex-start;
+}
+
+.search {
+    order: 2;
+    align-self: flex-start;
+    margin: 30px;
+}
+
+.menu {
+    order: 3;
+    align-self: flex-start;
+    margin: 30px;
+}
+
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  .menu li {
+    margin-right: 30px; 
+  }
+  
+  .menu a {
+    text-decoration: none; 
+    color: #FFFFFF; 
+    font-weight: bold; 
+  }
+  
+  .menu a:hover {
+    color: #ff9900;
+}
+
+body{
+    background-image:url(https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289f2c93e6eda5a4accfa8f_violet-gradient.png);
+    padding: 5px;
+    color:  #FFFFFF;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.flex-peliculas_populares {
+    display: flex;
+    flex-direction: row; /* Cambia la dirección de flex a columna */
+    text-align:center; /* Centra el texto horizontalmente */
+    padding: 15px;
+    align-items: center; /* Centra el contenido verticalmente */
+   
+}
+
+.toystory_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+.pitufos_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+
+.barbie_caja{
+    color: white;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+.portada {
+height: 200px;
+width: 200px;
+display: inline-block;
+transform: scale(1);
+transition: transform 0.3s; 
+}
+.portada:hover{
+    transform:scale(1.1);
+}
