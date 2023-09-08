@@ -26,23 +26,6 @@ body{
 }
 
 
-h2, p {
-    margin: 10px 0;
-    color: ;
-}
-
-
-.sinopsis {
-    font-style: italic;
-    color: ;
-}
-
-
-.genero {
-    font-weight: bold;
-    color:;
-    
-}
 
 .logodelsitio{
     width: 200px;
@@ -60,11 +43,13 @@ h2, p {
     border-radius: 5%;
 }
 
-.stranger_caja{
-    color: white;
-    flex-direction: column;
-    align-self: center;
-}
+.flex{
+    
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ }
 
 .logodelsitio {
     order: 1;
