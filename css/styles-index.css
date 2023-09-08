@@ -1,5 +1,5 @@
 body{
-    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcIBw0ICAoHBwcHBgoGBwcHBw8ICQgKIBEiFiARExMYKCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLjcBCgoKDQ0NDg0NDisZFRkrLSstLSsrKysrNysrKy0rKystKysrKysrLSsrKysrKysrKysrLSsrKy0rKystKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAwABB//EABYQAQEBAAAAAAAAAAAAAAAAAAEAEf/EABoBAQEBAQEBAQAAAAAAAAAAAAIAAQMEBQb/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AODMaQyG/TSvSsMxojMZNVGY0hkMpUsMxojMZNWGQ0hmNqVG6NMZjZYlBkNIZjGxKDMaQzGFiUGQ0xkMbEqMhpDMYWJQZDTGQxsSoyGkMxjYlBmNIZDCxKjIaYyGNiUGQ0xkMbEqMhpDMYWJQZjSGQxsSoyGmMhhYlBntIZbGxPJBmNEZjfXFUZjSGQylSwzGiMxlrVRmNIZDKVLDMaIzGTVhkNIZjalRujTGY2WJQZDSGYxsSgzGkMhhYlRkNMZDGxKjIaQzGFiUGQ0xkMbEqMhpDMY2JQZjSGQwsSoyGmMhjYlBkNMZDGxKjIaQzGFiUGY0hkMbEqMtpjLYWJ5EMxojMb6YLDMaIzGTVRmNIZDKVLDMaIzGUaqMxpDIZSpYZjRGYyasMhpDMbUqN0aYzGyxKDIaQzGNiUGY0hkMLEqMhpjIY2JUZDSGYwsSgyGmMhjYlRkNIZjGxKDMaQyGFiVGQ0xkMbEoMhpjIY2JUZDSGYwsSgy2mMo4nkQyGkMxvdKCozGiMxlKlhmNEZjJqozGkMhlKlhmNEZjKVqozGkMhlKlhmNEZjJqwyGkMxtSo3RpjMbLEoMhpDMY2JQZjSGQwsSoyGmMhjYlRkNIZjCxKDIaYyGNiVGQ0hmMbEoMxpDIYWJUZDSGYxsSgyGmMhjYlRltIZbCxPIRmNEZjeqVzWGQ0hmMo1UZjRGYylSwzGiMxk1UZjSGQylSwzGiMxlK1UZjSGQylSwzGiMxk1YZDSGY2pUbo0xmNliUGQ0hmMbEoMxpDIYWJUZDTGQxsSoyGkMhhYlRkNMZDGxKjIaQzGNiUGQ0xkMLEqMhpDMY2JQZbTGWxxPHxmNIZDdZXNYZjRGYylSwyGkMxk1UZjRGYylSwzGiMxlGqjMaQyGUqWGY0RmMo1UZjSGQylSwzGiMxk1YZDSGY2pUbo0xkNliVGQ0hmMbEoMxpDIYWJUZDTGQxsSgzGkMhhYlRkNMZDGxKjIaQzGNiUGQ0xkMLEqMtpDLY4nj4zGiMxtclRmNIZDKVqwzGiMxlKlhkNIZjJqozGiMxlEsMxojMZNVGY0hkMpUsMxojMZRqozGkMhlKlhmNEZjJqwyGkMxtSgyGmMhssSoyGkMxjYlBmNIZDCxKjIaYyGNiUGY0hkMLEqMhpjIY2JUZDSGYxsSgy2mMtjYnjozGiMxucrisMxojMZNVGY0hkMpUsMxojMZStWGQ0hmMo1UZjRGYyiWGY0RmMmqjMaQyGUqWGY0RmMo1UZjSGQylSwzGiMxk1YZDSGY2pQZDTGQ2WJUZDSGYxsSgzGkMhhYlRkNMZDGxKDMaQyGFiVGQ0xkMbEqN3aYy2NieOjIaQyG87isMxojMZSpYZjRGYyaqMxpDIZSpYZjRGYylasMhpDIZStWGY0RmMolhmNAagyaqMxpDIZSpYZjRGYylaqMxpDIZSpYZjRGYyaqMxpDMbUoMhpjIbLEqMhpDMY2JQZjSGQwsSoyGmMhjYlBmNIZDCxKjLaYy2OJ42MxojMbySuCozGkMhtasMxojMZSpYZjRGYyaqMxojMZSpYZjRGYylaqMxpDIZStWGQ0hmMksMxoDUGTVRmNIZDKVLDMaIzGTVRmNIZDKVLDMaIzGTVRmNIZDalRkNMZDZYlRkNIZjGxKDMaQyGFiVGQ0xkMbEoMtpjLYYnjQzG1rwOBjMbWlEQzG1pRpjMbWk0xkN21qIZja0mmMxtaURDMbWm0xkNrWxKDMblpRpjMbWlEYzG1pNIZja0ojGY2tKNIZja1qIZDa1lRjIbWhUQzG5aNRjLbWhU/9k=);
+    background-image:url(https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289f2c93e6eda5a4accfa8f_violet-gradient.png);
     padding: 5px;
     color:  #FFFFFF;
     background-size: cover; 
@@ -25,7 +25,7 @@ h2{
 .flexPadre {
     flex-direction: row;
     padding: 15px;
-    background-image: url(https://i.pinimg.com/originals/5a/c1/29/5ac1296b709f4427d4c7785a322d78a2.png);
+    background-image: url(https://img.freepik.com/free-vector/gradient-dynamic-purple-lines-background_23-2148995757.jpg);
     display: flex;
     justify-content: space-between;
     height: 100px;
@@ -97,74 +97,100 @@ transition: transform 0.3s;
 .toystory_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
 .reyleon_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 .barbie_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
 
 .pitufos_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 .highschool_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 .GOT_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .friends_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
-
 
 .stranger_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .breakingbad_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .thecrown_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .hombres_caja {
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .schindler_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .batman_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .padrino_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 .cadena_caja{
     color: white;
     flex-direction: column;
+    align-self: center;
 }
+
 
 
 
