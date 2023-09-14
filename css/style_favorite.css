@@ -60,12 +60,9 @@
 }
 
 body{
-    background-image:url(https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289f2c93e6eda5a4accfa8f_violet-gradient.png);
-    padding: 5px;
-    color:  #FFFFFF;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(3, 3, 116));
+    font-family: 'Oswald', sans-serif;
+    color:aliceblue
 }
 
 .flex-peliculas_populares {
@@ -104,4 +101,20 @@ transition: transform 0.3s;
 }
 .portada:hover{
     transform:scale(1.1);
+}
+
+footer {
+    background-color: white;
+    color: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    }
+
+.footer-content h2{
+    font-size: 19px;
 }

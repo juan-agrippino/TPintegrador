@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../TPintegrador/css/style_favorite.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@576;654&display=swap" rel="stylesheet">
     <title>Favoritos</title>
 </head>
 <body>
@@ -18,7 +21,7 @@
                 </article>
 
                 <article class="flexHijo search">
-                    <form action="resultados_busqueda.html" method="GET">
+                    <form action="search-results.html" method="GET">
                         <input type="text" name="query" placeholder="Buscar...">
                         <button type="submit">Buscar</button>
                     </form>
@@ -30,7 +33,7 @@
                             <li><a href="index.html">Inicio</a></li>
                             <li><a href="genres.html">Generos</a></li>
                             <li><a href="favorite.html">Favoritos</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
+                          
                         </ul>
                     </nav>
                 </article>
@@ -43,14 +46,14 @@
 
     <div class="flex-peliculas_populares toystory_caja">
         <h3> Toy Story </h3>
-        <img class="portada toystory" src="../recursos/toystory.jpeg">
+        <a href="detail-barbie.html"><img class="portada toystory" src="../recursos/toystory.jpeg"></a>
          <p>14 de Marzo de 1996</p>
         
     </div>
 
     <div class="flex-peliculas_populares barbie_caja">
         <h3>Barbie</h3>
-    <img class="portada barbie" src="../recursos/barbie.jpeg">
+        <a href="detail-barbie.html"><img class="portada barbie" src="../recursos/barbie.jpeg"></a>
         <p> 20 de Julio de 2023</p>
         
         
@@ -58,10 +61,19 @@
 
     <div class="flex-peliculas_populares pitufos_caja">
         <h3>Los Pitufos</h3>
-        <img class="portada pitufos" src="../recursos/pitufos.jpeg">
+        <a href="detail-barbie.html"> <img class="portada pitufos" src="../recursos/pitufos.jpeg"></a>
         <p>Fecha: 4 de Agosto de 2011</p>
     </div>
     </div>
+    <footer>
+        <div class="footer-content">
+            <h2>Felipe Maison</h2>
+            <h2>Juan Ignacio Agripino</h2>
+            <h2>Mateo Lief</h2>
+        </div>
+        
+    </footer>
+    </body>
 
 
 

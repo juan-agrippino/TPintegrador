@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../TPintegrador/css/style_details.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@576;654&display=swap" rel="stylesheet">
     <title>Barbie</title>
 </head>
 <body>
@@ -18,7 +21,7 @@
                 </article>
 
                 <article class="flexHijo search">
-                    <form action="resultados_busqueda.html" method="GET">
+                    <form action="search-results.html" method="GET">
                         <input type="text" name="query" placeholder="Buscar...">
                         <button type="submit">Buscar</button>
                     </form>
@@ -30,17 +33,17 @@
                             <li><a href="index.html">Inicio</a></li>
                             <li><a href="genres.html">Generos</a></li>
                             <li><a href="favorite.html">Favoritos</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
+                          
                         </ul>
                     </nav>
                 </article>
             </section>
         </header>
     </div>
-    <div class="flexPadre">
-        <h1 class="flexPadre titulo">Barbie</h1>
-        <img class="flexPadre imagen " src="../recursos/barbie.jpeg" alt="Imagen de Barbie">
-    </div>
+        <div class="portada">
+        <h1 >Barbie</h1>
+        <img src="../recursos/barbie.jpeg" class="imagen_barbie">
+        </div>
 
         <h2>2.6/5 de calificación</h2>
         <p>Fecha de estreno: 20 de Julio de 2023</p>
@@ -48,5 +51,14 @@
         <p class="sinopsis">Sinopsis: Barbie vive en Barbieland donde todo es ideal y lleno de música y color. Un buen día decide conocer el mundo real. Cuando el CEO de Mattel se entere tratará de evitarlo a toda costa y devolver a Barbie a una caja.</p>
         <p class="genero">Género: Aventura, comedia y fantasía</p>
         <button id="agregarFavorito">Agregar a Favoritos</button>
+    
+        <footer>
+            <div class="footer-content">
+                <h2>Felipe Maison</h2>
+                <h2>Juan Ignacio Agripino</h2>
+                <h2>Mateo Lief</h2>
+            </div>
+            
+        </footer>
 </body>
 </html>

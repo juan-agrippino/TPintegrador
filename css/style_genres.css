@@ -1,3 +1,10 @@
+body{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(3, 3, 116));
+    font-family: 'Oswald', sans-serif;
+    color:aliceblue
+}
+
+
 .logodelsitio{
     width: 200px;
     
@@ -59,40 +66,49 @@
     color: #ff9900;
 }
 
-body{
-    background-image:url(https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289f2c93e6eda5a4accfa8f_violet-gradient.png);
-    padding: 5px;
-    color:  #FFFFFF;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-}
+
+
 
 .flex-peliculas_populares {
     display: flex;
     flex-direction: row;
     text-align:center; 
-    padding: 15px;
+    padding: 10px;
     align-items: center; 
+    justify-content: space-between;
+    padding: 30px;
+    @media (max-width: 390px) {
+
+    }
    
 }
 
+.titulosgeneros{
+    display: flex;
+    justify-content: center;
+}
 
 .toystory_caja{
+    display: flex;
     color: white;
     flex-direction: column;
     align-self: center;
+    justify-content: left;
 }
 .pitufos_caja{
+    display: flex;
     color: white;
     flex-direction: column;
     align-self: center;
+    justify-content: center;
 }
 
 .barbie_caja{
+    display: flex;
     color: white;
     flex-direction: column;
     align-self: center;
+    justify-content: right;
 }
 
 h2{
@@ -119,12 +135,27 @@ h2{
 
 
 .portada {
-height: 200px;
-width: 200px;
+height: 190px;
+width: 190px;
 display: inline-block;
 transform: scale(1);
 transition: transform 0.3s; 
 }
 .portada:hover{
     transform:scale(1.1);
+}
+footer {
+    background-color: white;
+    color: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    }
+
+.footer-content h2{
+    font-size: 19px;
 }

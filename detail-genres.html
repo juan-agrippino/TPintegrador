@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../TPintegrador/css/style_detail_genres.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@576;654&display=swap" rel="stylesheet">
     <title>Detalle de Generos</title>
 </head>
 <body>
@@ -18,7 +21,7 @@
                 </article>
 
                 <article class="flexHijo search">
-                    <form action="resultados_busqueda.html" method="GET">
+                    <form action="search-results.html" method="GET">
                         <input type="text" name="query" placeholder="Buscar...">
                         <button type="submit">Buscar</button>
                     </form>
@@ -30,20 +33,30 @@
                             <li><a href="index.html">Inicio</a></li>
                             <li><a href="genres.html">Generos</a></li>
                             <li><a href="favorite.html">Favoritos</a></li>
-                            <li><a href="contacto.html">Contacto</a></li>
+                            
                         </ul>
                     </nav>
                 </article>
             </section>
         </header>
     </div>
-    <div class="flex">
-        <h1 class="flex titulo">Aventura</h1>
-        <img class="flex imagen " src="../recursos/barbie.jpeg" alt="Imagen de Barbie">
+    <div class="contenedor_titulo">
+    <h1 class="titulo">Aventura</h1>
     </div>
+    <div class="flex_peliculas_generos">
+        <a href="../TPintegrador/detail-barbie.html"><img class="flex-peliculas_populares barbie"  src="../recursos/barbie.jpeg" alt="Imagen de Barbie"></a>
+        <a href="../TPintegrador/detail-barbie.html"><img class="flex-peliculas_populares toystory" src="../recursos/toystory.jpeg"></a>
 
+    </div>
+       
+    <footer>
+        <div class="footer-content">
+            <h2>Felipe Maison</h2>
+            <h2>Juan Ignacio Agripino</h2>
+            <h2>Mateo Lief</h2>
+        </div>
         
+    </footer>
 
 </body>
-
 </html>

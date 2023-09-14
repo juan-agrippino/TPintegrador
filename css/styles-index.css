@@ -1,15 +1,9 @@
 body{
-    background-image:url(https://uploads-ssl.webflow.com/5a9ee6416e90d20001b20038/6289f2c93e6eda5a4accfa8f_violet-gradient.png);
-    padding: 5px;
-    color:  #FFFFFF;
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(3, 3, 116));
+    font-family: 'Oswald', sans-serif;
+    color:aliceblue
 }
 
-.flexPrincipal{
-    padding: 5px;
-}
 
 .logodelsitio{
     width: 200px;
@@ -17,10 +11,9 @@ body{
 }
 
 h2{
-    font-size: 40px;
-    color: white;
+    color: aliceblue;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 .flexPadre {
     flex-direction: row;
@@ -31,17 +24,20 @@ h2{
     height: 100px;
     align-items: center;
     border-radius: 5%;
+    
 }
 
 .portada {
-height: 200px;
-width: 200px;
+height: 180px;
+width: 120px;
 display: inline-block;
 transform: scale(1);
-transition: transform 0.3s; 
+transition: transform 0.2s; 
+margin: 5px;
 }
+
 .portada:hover{
-    transform:scale(1.1);
+    transform:scale(0.9);
 }
 
 
@@ -89,117 +85,137 @@ transition: transform 0.3s;
     display: flex;
     flex-direction: row; 
     text-align:center; 
-    padding: 15px;
     align-items: center; 
+    margin: 50px;
 }
 
-h2{
-    font-size: 35px;
-}
+
 
 .toystory_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+    
 }
 .reyleon_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+    
+    
 }
 
 .barbie_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
 }
 
 .pitufos_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+    
+   
 }
 
 .highschool_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+   
 }
 
 .GOT_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+   
 }
 
 
 .friends_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+     
 }
 
 .stranger_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
-}
+}  
 
 
-.breakingbad_caja{
-    color: white;
+.breakingbad_caja {
     flex-direction: column;
     align-self: center;
 }
 
 
 .thecrown_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+   
 }
 
 
 .hombres_caja {
-    color: white;
     flex-direction: column;
     align-self: center;
+   
+    
 }
 
 
 .schindler_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+   
+   
 }
 
 
 .batman_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+    
+   
 }
 
 
 .padrino_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+    
+   
 }
 
 
 .cadena_caja{
-    color: white;
     flex-direction: column;
     align-self: center;
+}    
+
+footer {
+    background-color: white;
+    
 }
 
-
-
-
-
-
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
    
+    }
+
+.footer-content h2{
+    font-size: 19px;
+    color: black;
+}
+
+    
+
+
+
+
+
+
+
+
 
    
 
