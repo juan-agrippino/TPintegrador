@@ -1,27 +1,8 @@
 body{
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(3, 3, 116));
     font-family: 'Oswald', sans-serif;
-    color:aliceblue
-}
-.contenedor_titulo {
-    display: flex;
-    justify-content: center;
-}
-
-.imagen{
-    height: 250px;
-    width: 250px;
-    
-}
-
-.flexPadre {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
-
-.titulo {
-    font-size: 32px;
+    color:aliceblue;
+        
 }
 
 .logodelsitio{
@@ -38,24 +19,7 @@ body{
     height: 100px;
     align-items: center;
     border-radius: 5%;
-}
-
-.flex_peliculas_populares{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
     
-}
-
- .barbie {
-    width: 200px;
-    height: 200px;
-    
-}
-
-.toystory{
-    width: 200px;
-    height: 200px;
 }
 
 .logodelsitio {
@@ -96,52 +60,100 @@ body{
   .menu a:hover {
     color: #ff9900;
 }
+h1{
+    margin-left: 500px;
+}
 
-.toystory {
-    height: 200px;
+.portada{
     width: 200px;
-    display: inline-block;
+    height: 200px;
     transform: scale(1);
     transition: transform 0.2s; 
-    }
-.toystory:hover{
-        transform:scale(0.9);
+    margin: 5px;
+}
+
+.portada:hover{
+    transform:scale(0.9);
+}
+
+footer {
+    background-color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
     }
 
-.barbie {
-        height: 200px;
-        width: 200px;
-        display: inline-block;
-        transform: scale(1);
-        transition: transform 0.2s; 
-        }
-.barbie:hover{
-            transform:scale(0.9);
-        }
+.footer-content h2{
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+    margin-top: 5px;
+}
 
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-        }
-        
-        footer {
-            background-color: white;
-            color: black;
-            
-            margin-top: auto; 
-            text-align: center;
-        }
-        
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center; 
-        }
-        
-        .footer-content h2 {
-            font-size: 19px;
-        }
-        
-        
+@media (width: 390px){
+    body{
+        width: 390px;
+        margin: 0%;
+    }
+    .flexPadre {
+        flex-direction: row;
+        background-image: url(https://img.freepik.com/free-vector/gradient-dynamic-purple-lines-background_23-2148995757.jpg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5%;
+        height: 80px;
+    }
+    h1{
+        margin-left: 150px;
+    }
+    .menu li {
+        margin-right: 15px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .logodelsitio {
+        width: 100px;
+        height: 150px;
+        margin-top: 5px;
+    }
+    .flexHijo.logo{
+    width: 100%;
+    }
+    .search{
+        order: 2;
+    align-self: center;
+    margin: 2px;
+    margin-left: 5px;
+    margin-right: 1px;
+    }
+    button{
+        height: 15px;
+    font-size: 10px;
+    margin-left: 20px;
+    }
+    input{
+        width: 75px;
+        display: flex;
+        margin-top: 20px;
+        height: 10px;
+    }
+    .menu{
+        font-size: 10px;
+
+    }
+    
+}
+
+@media (width: 844px){
+    h1{
+        margin-left: 350px
+    }
+    body{
+        margin: 0px;
+    }
+}

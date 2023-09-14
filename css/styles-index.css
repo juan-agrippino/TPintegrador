@@ -207,6 +207,246 @@ footer {
     color: black;
 }
 
+@media (width: 390px){
+    .menu li {
+        margin-right: 15px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .logodelsitio {
+        width: 100px;
+        height: 150px;
+        margin-top: 5px;
+    }
+    .flexHijo.logo{
+    
+    width: 100%;
+
+    }
+    .search{
+        order: 2;
+    align-self: center;
+    margin: 2px;
+    margin-left: 5px;
+    margin-right: 1px;
+    }
+    button{
+        height: 15px;
+    font-size: 10px;
+    margin-left: 20px;
+    }
+    input{
+        width: 75px;
+        display: flex;
+        margin-top: 20px;
+        height: 10px;
+        margin-left: 5px;
+       
+    }
+    .menu{
+        font-size: 10px;
+
+    }
+    h2{
+        color: aliceblue;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .flexPadre {
+        height: 80px;
+        
+    }
+    .flexPrincipal{
+        width: 390px;
+    }
+    .flexPrincipal_1{
+        width: 390px;
+    }
+    body{
+        background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(3, 3, 116));
+        font-family: 'Oswald', sans-serif;
+        color:aliceblue;
+        margin: 0%;
+        width: 100%;
+    }
+    .flex-peliculas_populares {
+        display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 390px;
+    margin: 0px;
+    }
+    .portada{
+    height: 100px;
+    width: 75px;
+    display: inline-block;
+    transform: scale(1);
+    transition: transform 0.2s;
+    
+    }
+
+    .toystory_caja{
+        flex-direction: column;
+        align-self: center;
+        
+    }
+    .reyleon_caja{
+        flex-direction: column;
+        align-self: center;
+        
+        
+    }
+    
+    .barbie_caja{
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    .pitufos_caja{
+        flex-direction: column;
+        align-self: center;
+        
+       
+    }
+    
+    .highschool_caja{
+        flex-direction: column;
+        align-self: center;
+       
+    }
+    
+    .GOT_caja{
+        flex-direction: column;
+        align-self: center;
+       
+    }
+    
+    
+    .friends_caja{
+        flex-direction: column;
+        align-self: center;
+         
+    }
+    
+    .stranger_caja{
+        flex-direction: column;
+        align-self: center;
+    }  
+    
+    
+    .breakingbad_caja {
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    
+    .thecrown_caja{
+        flex-direction: column;
+        align-self: center;
+       
+    }
+    
+    
+    .hombres_caja {
+        flex-direction: column;
+        align-self: center;
+       
+        
+    }
+    
+    
+    .schindler_caja{
+        flex-direction: column;
+        align-self: center;
+       
+       
+    }
+    
+    
+    .batman_caja{
+        flex-direction: column;
+        align-self: center;
+        
+       
+    }
+    
+    
+    .padrino_caja{
+        flex-direction: column;
+        align-self: center;
+        
+       
+    }
+    
+    
+    .cadena_caja{
+        flex-direction: column;
+        align-self: center;
+    }    
+    .portada {
+        height: 150px;
+        width: 100px;
+        display: inline-block;
+        transform: scale(1);
+        transition: transform 0.2s; 
+        margin: 17px;
+        }
+        
+        .portada:hover{
+            transform:scale(0.9);
+        }
+
+        footer {
+            background-color: white;
+            width: 390px;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            height: 40px;
+            }
+        
+        .footer-content h2{
+            font-size: 15px;
+            color: black;
+            margin: 0px;
+            margin-top: 5px;
+        }
+        
+}
+
+@media (width: 844px){
+    
+    body{
+        background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(3, 3, 116));
+        font-family: 'Oswald', sans-serif;
+        color:aliceblue;
+        margin: 0%;
+        width: 100%;
+    }
+    
+    .portada{
+        height: 200px;
+        width: 150px;
+        display: inline-block;
+        transform: scale(1);
+        transition: transform 0.2s;
+    }
+    .flex-peliculas_populares {
+        display: flex;
+        flex-direction: column; 
+        text-align:center; 
+        align-items: center; 
+        margin: 2px;
+    }
+    
+    
+}
     
 
 
