@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../TPintegrador/css/style_details.css" rel="stylesheet">
+    <link href="../css/style_details.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@576;654&display=swap" rel="stylesheet">
@@ -21,8 +21,8 @@
                 </article>
 
                 <article class="flexHijo search">
-                    <form action="search-results.html" method="GET">
-                        <input type="text" name="query" placeholder="Buscar...">
+                    <form action="search-results.html" method="GET"class="form">
+                        <input type="text" name="query" placeholder="Buscar..."class="busqueda">
                         <button type="submit">Buscar</button>
                     </form>
                 </article>
@@ -41,14 +41,10 @@
         </header>
     </div>
         <div class="portada">
-        <h1 >Breaking Bad</h1>
-        <img src="../recursos/breaking.jpeg" class="imagen_breakingbad">
+        
         </div>
 
-        <h2>4.3/5 de calificación</h2>
-        <p>Fecha de estreno: 20 de Enero de 2008</p>
-        <p class="sinopsis">Sinopsis: La serie narra las historias de Walter White, un profesor de química que después de ser diagnosticado de un cáncer pulmonar inoperable termina vendiendo metanfetamina, y de Jesse Pinkman, su exalumno.</p>
-        <p class="genero">Género: Aventura, drama y violencia</p>
+        
         <button id="agregarFavorito">Agregar a Favoritos</button>
 
         <footer>
@@ -56,8 +52,10 @@
                 <h2>Felipe Maison</h2>
                 <h2>Juan Ignacio Agripino</h2>
                 <h2>Mateo Lief</h2>
+                <img class="TMDB" src="../recursos/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg">
             </div>
             
         </footer>
+        <script src="../Javascript/detalle-series.js"></script>
 </body>
 </html>

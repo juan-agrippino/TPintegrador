@@ -8,7 +8,10 @@
     flex-direction: column;
     align-self: center;
 }
-
+.TMDB{
+    align-self: center;
+    height: 20px;
+}
 .flexPadre {
     flex-direction: row;
     padding: 15px;
@@ -105,18 +108,19 @@ transition: transform 0.3s;
 
 footer {
     background-color: white;
-    color: black;
+    
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    
+   
     }
 
 .footer-content h2{
     font-size: 19px;
+    color: black;
 }
 
 @media (width: 390px){

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../TPintegrador/css/style_genres.css" rel="stylesheet">
+    <link href="../css/style_genres.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@576;654&display=swap" rel="stylesheet">
@@ -21,8 +21,8 @@
                 </article>
 
                 <article class="flexHijo search">
-                    <form action="search-results.html" method="GET">
-                        <input type="text" name="query" placeholder="Buscar...">
+                    <form action="search-results.html" method="GET" class="form">
+                        <input type="text" name="query" placeholder="Buscar..." class="busqueda">
                         <button type="submit">Buscar</button>
                     </form>
                 </article>
@@ -42,58 +42,20 @@
     </div>
 
     <section class="flexPrincipal">
-       <h2 class="titulosgeneros" >Generos</h2>
+       <h2 class="titulosgeneros" >Generos de peliculas</h2>
         <article class="flexPrincipal_1">
 
             
 
             <div class="flex-peliculas_populares">
 
-                <div class="flex-peliculas_populares toystory_caja">
-                    <h3> Aventura</h3>
-                    <a href="detail-genres.html"><img class="portada toystory" src="https://static.vecteezy.com/system/resources/previews/019/525/267/non_2x/cartoon-flat-style-drawing-little-boys-and-girls-scout-walking-with-binoculars-and-map-children-scout-adventure-camping-concept-hiking-recreational-tourism-group-graphic-design-illustration-vector.jpg"></a>
-                    
+                
 
-                </div>
+            </div>
+        <h2 class="titulosgeneros">Generos de series</h2>
+            <div class="flex-series_populares">
 
-                <div class="flex-peliculas_populares barbie_caja">
-                    <h3>Comedia</h3>
-                    <a href="detail-genres.html"><img class="portada barbie" src="https://static.vecteezy.com/system/resources/previews/024/096/435/non_2x/outline-of-theatrical-comedy-mask-vintage-opera-mask-for-happy-actor-face-expresses-positive-emotion-film-and-theatre-industry-illustration-hand-drawn-sketch-isolated-on-white-background-vector.jpg"></a>
-                </div>
-
-                <div class="flex-peliculas_populares pitufos_caja">
-                    <h3>Fantasia</h3>
-
-                    <a href="detail-genres.html"><img class="portada pitufos" src="https://img.freepik.com/vector-premium/cosas-fantasia-dibujos-animados-lindo_6997-829.jpg?w=2000"></a>
-                    
-                    
-                </div>
-                </div>
-
-        </article>
-
-
-        <article class="flexPrincipal_2">
-           
-
-            <div class="flex-peliculas_populares">
-        
-                <div class="flex-peliculas_populares GOT_caja">
-                    <h3>Suspenso</h3>
-                    
-                    <a href="detail-genres.html"><img class="portada got" src="https://i.pinimg.com/originals/76/3c/1c/763c1c77350940fad55a08557b596bd7.jpg"></a>
-                    
-                </div>
-
-                <div class="flex-peliculas_populares stranger_caja">
-                    <h3>Drama</h3>
-                    <a href="detail-genres.html"><img class="portada Stranger" src="https://img.freepik.com/vector-premium/esquema-mascara-drama-teatral-mascara-opera-vintage-actor-tragedia-ilustracion-vectorial_501907-978.jpg?w=2000"></a>
-                </div>
-
-                <div class="flex-peliculas_populares breakingbad_caja">
-                    <h3>Crimen</h3>
-                    <a href="detail-genres.html"><img class="portada Breaking" src="https://us.123rf.com/450wm/bsd555/bsd5552004/bsd555200401453/144935170-icono-de-color-rgb-de-pel%C3%ADcula-de-suspenso-género-de-cine-de-suspenso-survival-horror-acción.jpg"></a>
-                </div>
+                
 
             </div>
 
@@ -104,8 +66,11 @@
                 <h2>Felipe Maison</h2>
                 <h2>Juan Ignacio Agripino</h2>
                 <h2>Mateo Lief</h2>
+                <img class="TMDB" src="../recursos/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg">
             </div>
             
         </footer>
+
+        <script src="../Javascript/genres.js"></script>
 </body>
 </html>

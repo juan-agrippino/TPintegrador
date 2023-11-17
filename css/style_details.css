@@ -23,9 +23,7 @@ body{
 }
 
 
-h2, p {
-    margin: 10px 0;
-}
+
 
 
 .sinopsis {
@@ -63,11 +61,22 @@ h2, p {
 .imagen_barbie{
     width: 300px;
     height: 300px;
+
 }
-.portada{
+.card_peli{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.portadaPelicula{
+    height: 400px;
+    margin: 20px;
 }
 .logodelsitio {
     order: 1;
@@ -107,7 +116,10 @@ h2, p {
   .menu a:hover {
     color: #ff9900;
 }
-
+.TMDB{
+    align-self: center;
+    height: 20px;
+}
 footer {
     background-color: white;
     color: black;

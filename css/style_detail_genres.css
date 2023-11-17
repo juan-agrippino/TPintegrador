@@ -2,7 +2,7 @@ body{
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(3, 3, 116));
     font-family: 'Oswald', sans-serif;
     color:aliceblue;
-        
+    
 }
 
 .logodelsitio{
@@ -56,13 +56,33 @@ body{
     color: #FFFFFF; 
     font-weight: bold; 
   }
-  
+  .TMDB{
+    align-self: center;
+    height: 20px;
+}
+  .vinculoGenero{
+    text-decoration: none;
+    color: aliceblue;
+  }
   .menu a:hover {
     color: #ff9900;
 }
 h1{
     margin-left: 500px;
 }
+.flex_peliculas_generos {
+    display: flex;
+    overflow-y: scroll;
+  }
+
+  .peli {
+    margin-right: 20px; 
+    transform: scale(1);
+transition: transform 0.2s; 
+  }
+  .peli:hover{
+    transform:scale(0.9);
+  }
 
 .portada{
     width: 200px;
@@ -93,6 +113,15 @@ footer {
     margin: 0px;
     margin-top: 5px;
 }
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #3f3f3f;
+    border-radius: 1000px;
+  }
 
 @media (width: 390px){
     body{

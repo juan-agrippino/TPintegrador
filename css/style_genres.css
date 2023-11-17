@@ -27,6 +27,11 @@ body{
     align-self: center;
 }
 
+.titulosgeneros{
+    font-size: 50px;
+    justify-content: center;
+}
+
 .logodelsitio {
     order: 1;
     align-self: flex-start;
@@ -68,45 +73,37 @@ body{
 
 .flex-peliculas_populares {
     display: flex;
-    flex-direction: row;
-    text-align:center; 
-    padding: 10px;
-    align-items: center; 
     justify-content: space-between;
-    padding: 30px;
+    flex-wrap: wrap;
+}
+.flex-series_populares {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.TMDB{
+    align-self: center;
+    height: 20px;
+}
+a.nombreGeneros{
+    
+    padding: 10px;
+    border: 7px solid rgb(101, 86, 116); 
+    border-radius: 20px; 
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+    display: inline-block; 
+    margin-bottom: 30px;
+    transform: scale(1);
+    transition: transform 0.2s; 
+    text-decoration: none;
+}
+a.nombreGeneros:hover{
+    transform:scale(0.9);
+}
 
-}
 
-.toystory_caja{
-    display: flex;
-    flex-direction: column;
-    
-}
-.barbie_caja{
-    display: flex;
-    flex-direction: column;
-  
-}
-.pitufos_caja{
-    display: flex;
-    flex-direction: column;
-   
-}
-.GOT_caja{
-    display: flex;
-    flex-direction: column;
-    
-}
-.stranger_caja{
-    display: flex;
-    flex-direction: column;
-    
-}
-.breakingbad_caja{
-    display: flex;
-    flex-direction: column;
-    
-}
  
 .portada {
     height: 190px;
@@ -115,8 +112,8 @@ body{
     margin-bottom: 30px;
     transform: scale(1);
     transition: transform 0.2s;
-    }
-    .portada:hover{
+}
+.portada:hover{
         transform:scale(0.9);
     } 
 
@@ -139,9 +136,8 @@ body{
         margin-top: 5px;
     }
 h2{
-   margin-left: 550px;
-   margin-top: 30px;
-   font-size: 30px;
+    display: flex;
+  justify-content: center;
 }
 
 

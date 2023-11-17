@@ -28,8 +28,8 @@ h2{
 }
 
 .portada {
-height: 180px;
-width: 120px;
+    height: 180px;
+    width: 120px;
 display: inline-block;
 transform: scale(1);
 transition: transform 0.2s; 
@@ -87,108 +87,44 @@ margin: 5px;
     text-align:center; 
     align-items: center; 
     margin: 50px;
+    overflow-y: scroll;
 }
 
+.flex-series_populares {
+    display: flex;
+    flex-direction: row; 
+    text-align:center; 
+    align-items: center; 
+    margin: 50px;
+    overflow-y: scroll;
 
-
-.toystory_caja{
-    flex-direction: column;
-    align-self: center;
-    
 }
-.reyleon_caja{
-    flex-direction: column;
-    align-self: center;
-    
-    
+.flex-peliculas_valoradas {
+    display: flex;
+    flex-direction: row; 
+    text-align:center; 
+    align-items: center; 
+    margin: 50px;
+    overflow-y: scroll;
+    overflow-y: scroll;
 }
-
-.barbie_caja{
-    flex-direction: column;
+.TMDB{
     align-self: center;
+    height: 20px;
 }
-
-.pitufos_caja{
-    flex-direction: column;
-    align-self: center;
-    
-   
+a {
+    text-decoration: none;
+    color: aliceblue;
 }
-
-.highschool_caja{
-    flex-direction: column;
-    align-self: center;
-   
+.card{
+    transform: scale(1);
+    transition: transform 0.2s; 
+    margin-right: 100px;
 }
-
-.GOT_caja{
-    flex-direction: column;
-    align-self: center;
-   
+.card:hover{
+    transform:scale(0.9);
 }
 
-
-.friends_caja{
-    flex-direction: column;
-    align-self: center;
-     
-}
-
-.stranger_caja{
-    flex-direction: column;
-    align-self: center;
-}  
-
-
-.breakingbad_caja {
-    flex-direction: column;
-    align-self: center;
-}
-
-
-.thecrown_caja{
-    flex-direction: column;
-    align-self: center;
-   
-}
-
-
-.hombres_caja {
-    flex-direction: column;
-    align-self: center;
-   
-    
-}
-
-
-.schindler_caja{
-    flex-direction: column;
-    align-self: center;
-   
-   
-}
-
-
-.batman_caja{
-    flex-direction: column;
-    align-self: center;
-    
-   
-}
-
-
-.padrino_caja{
-    flex-direction: column;
-    align-self: center;
-    
-   
-}
-
-
-.cadena_caja{
-    flex-direction: column;
-    align-self: center;
-}    
 
 footer {
     background-color: white;
@@ -207,6 +143,18 @@ footer {
     color: black;
 }
 
+
+
+ ::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #3f3f3f;
+    border-radius: 1000px;
+  }
+  
 @media (width: 390px){
     .menu li {
         margin-right: 15px;

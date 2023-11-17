@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../TPintegrador/css/style_detail_genres.css" rel="stylesheet">
+    <link href="../css/style_detail_genres.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@576;654&display=swap" rel="stylesheet">
@@ -21,8 +21,8 @@
                 </article>
 
                 <article class="flexHijo search">
-                    <form action="search-results.html" method="GET">
-                        <input type="text" name="query" placeholder="Buscar...">
+                    <form action="search-results.html" method="GET" class="form">
+                        <input type="text" name="query" placeholder="Buscar..." class="busqueda">
                         <button type="submit">Buscar</button>
                     </form>
                 </article>
@@ -43,20 +43,22 @@
     <div class="contenedor_titulo">
     <h1 class="contenedor_ titulo titulo">Aventura</h1>
     </div>
+    <div class="flexGeneral">
     <div class="flex_peliculas_generos">
-        <a href="../TPintegrador/detail-barbie.html"><img class="portada"  src="../recursos/barbie.jpeg" alt="Imagen de Barbie"></a>
-        <a href="../TPintegrador/detail-barbie.html"><img class="portada" src="../recursos/toystory.jpeg"></a>
+        
 
     </div>
-       
+</div>
     <footer>
         <div class="footer-content">
             <h2>Felipe Maison</h2>
             <h2>Juan Ignacio Agripino</h2>
             <h2>Mateo Lief</h2>
+            <img class="TMDB" src="../recursos/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg">
         </div>
         
     </footer>
-
+    
+<script src="../Javascript/detail-genres.js"></script>
 </body>
 </html>

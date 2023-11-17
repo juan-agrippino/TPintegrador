@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Search Results</title>
+    <link href="../css/style_search_results.css" rel="stylesheet">
 </head>
 <body>
-    <h1>PAGINA CARGANDO....</h1>
+    <div class="flexHijo logo">
+        <header class="encabezado">
+            <section class="flexPadre">
+
+                <article>
+                    <div class="logo">
+                        <img class="logodelsitio" src="../recursos/Movie.png" alt="Logo del Sitio Web">
+                    </div>
+                </article>
+
+                <article class="flexHijo search">
+                    <form action="search-results.html" method="GET" class="form">
+                        <input type="text" name="query" placeholder="Buscar..." class="busqueda">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </article>
+
+                <article class="flexHijo menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="genres.html">Generos</a></li>
+                            <li><a href="favorite.html">Favoritos</a></li>
+                            
+                        </ul>
+                    </nav>
+                </article>
+            </section>
+        </header>
+    </div>
+    <h1>Resultados de busqueda:</h1>
+    <div class="resultados">
+
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h2>Felipe Maison</h2>
+            <h2>Juan Ignacio Agripino</h2>
+            <h2>Mateo Lief</h2>
+            <img class="TMDB" src="../recursos/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg">
+        </div>
+        
+    </footer>
+    <script src="../Javascript/results.js"></script>
 </body>
 </html>
